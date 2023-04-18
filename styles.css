@@ -1,0 +1,85 @@
+.title {
+    color: rgba(255, 255, 255, 1);
+    border: 5px solid;
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+}
+
+.recipes {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.middle {
+    background-color: rgba(0, 0, 0, 0.9)
+}
+
+a:link, a:visited {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.top {
+    text-align: center;
+    color: aliceblue;
+}
+
+.name {
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.lasagna-description, .dada {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+
+img {
+    height: 700px;
+    width: 900px;
+}
+
+.lasagna-1 {
+    background-color: rgba(70, 0, 0, 0.438);
+}
+
+.ingredients, .directions, .end, .back {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    color: aliceblue;
+}
+
+ul, ol {
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: aliceblue;
+}
+
+.back {
+    
+}
