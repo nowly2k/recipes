@@ -1,13 +1,14 @@
-.title {
+.name, .title {
     color: rgba(255, 255, 255, 1);
     border: 5px solid;
     text-align: center;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(255, 0, 0, 0.6);
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(0, 0,1 0);
     letter-spacing: 3px;
     word-spacing: 10px;
+    text-transform: uppercase;
 }
 .description {
     display: flex;
@@ -22,6 +23,7 @@
     display: flex;
     justify-content: center;
     color: aliceblue;
+    text-transform: uppercase;
 }
 .middle {
     background-color: rgba(0, 0, 0, 0.9)
@@ -46,21 +48,35 @@ a:hover, a:active {
     color: aliceblue;
 }
 
-.name {
-    font-size: larger;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.lasagna-description, .dada {
+.lasagna-description {
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
+    background-color: rgba(70, 0, 0, 0.138);
+    border: 2px solid black;
+    margin-top: 10px;
 }
 
+.dada {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    background-color: rgba(70, 0, 0, 0.138);
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.image {
+    text-align: center;
+}
 
 img {
-    height: 700px;
-    width: 900px;
+    height: 600px;
+    width: 700px;
+    border: 2px solid black;
 }
 
 .lasagna-1 {
@@ -72,6 +88,7 @@ img {
     font-size: 200%;
     text-align: center;
     color: aliceblue;
+    text-transform: capitalize;
 }
 
 ul, ol {
